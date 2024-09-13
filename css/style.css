@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body{
+    height: 100%
+}
+/** header **/
+.container{
+    width: 100%;
+    max-width: 1376px;
+    padding: 10px 2%;
+}
+
+.clear {
+    clear: both;
+}
+
+.btn{
+    display: inline-block;
+    background-color: #FFD700;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.btn:hover{
+    text-decoration: underline;
+}
+
+.top .container{
+    background-color: #2f4f4f;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 10px 2%;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline;
+    padding-left: 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/*iniciando section*/
+
+
+section img{
+    height: 200px;
+    margin-top: 10px;
+}
+
+section h2{
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.sports{
+    background-color: #98FB98;
+}
+
+.economy{
+    background-color: #ccc;
+}
+
+.entertainment{
+    background-color: #FFFACD;
+}
+
+.technology{
+    background-color: #E0FFFF;
+}
+/* iniciando article */
+
+article{
+    width: 30%;
+    float: left;
+    margin: 0 15px;
+}
+
+article img{
+    width: 300px;
+    padding: 0 2%;
+}
+
+article time{
+    font-size: 12px;
+    padding: 0 2%;
+}
+
+article h3{
+    font-size: 20px;
+    padding: 10px 2%;
+}
+article p{
+    padding: 10px 2%;
+}
+
+
+
